@@ -38,9 +38,9 @@ jobs:
           npm ci
           npm run build 
 
-      - name: Build Family Tree
+      - name: Build Family Nexus
         run: |
-          cd family-tree
+          cd family-nexus
           npm ci
           npm run build 
 
