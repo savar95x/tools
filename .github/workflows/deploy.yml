@@ -25,26 +25,25 @@ jobs:
           node-version: 20
 
       # --------------------------------------------------------
-      # BUILD STEP: WEATHER APP
-      # --------------------------------------------------------
-      - name: Build Weather App
+
+      - name: Build Breathe
         run: |
-          cd weather-app
+          cd breathe
           npm ci
           npm run build
-          # This usually creates weather-app/dist
 
-      # --------------------------------------------------------
-      # BUILD STEP: CALCULATOR
-      # --------------------------------------------------------
-      - name: Build Calculator
+      - name: Build Pss Website
         run: |
-          cd calculator
+          cd pss-website
           npm ci
           npm run build 
-          # This usually creates calculator/dist
 
-      # --------------------------------------------------------
+      - name: Build Family Tree
+        run: |
+          cd family-tree
+          npm ci
+          npm run build 
+
       # MERGE BUILDS
       # --------------------------------------------------------
       - name: Prepare Deployment Folder
