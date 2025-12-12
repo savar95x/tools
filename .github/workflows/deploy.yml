@@ -53,11 +53,14 @@ jobs:
           #cp index.html _site/ 
           
           # Move app builds into their subfolders in _site
-          mkdir -p _site/weather-app
-          cp -r weather-app/dist/* _site/weather-app/
+          mkdir -p _site/breathe
+          cp -r breathe/dist/* _site/breathe/
           
-          mkdir -p _site/calculator
-          cp -r calculator/dist/* _site/calculator/
+          mkdir -p _site/pss-website
+          cp -r pss-website/dist/* _site/pss-website/
+
+          mkdir -p _site/family-nexus
+          cp -r family-nexus/dist/* _site/family-nexus/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
