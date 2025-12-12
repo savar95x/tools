@@ -1,7 +1,7 @@
 {
   "name": "family-nexus",
   "private": true,
-  "homepage": "https://savar95x.github.io/family-nexus",
+  "homepage": "https://savar95x.github.io/tools/family-nexus",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
