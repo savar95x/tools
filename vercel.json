@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/shortener",
+      "destination": "https://url-shortner-backend-rose.vercel.app/"
+    },
+    {
+      "source": "/shortener/:match*",
+      "destination": "https://url-shortner-backend-rose.vercel.app/:match*"
+    }
+  ]
+}
