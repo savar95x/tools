@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/pss-website",
-      "destination": "https://url-shortner-backend-rose.vercel.app/"
+      "destination": "https://pss-website-livid.vercel.app/"
     },
     {
       "source": "/pss-website/:match*",
-      "destination": "https://url-shortner-backend-rose.vercel.app/:match*"
+      "destination": "https://pss-website-livid.vercel.app/:match*"
     },
     {
       "source": "/breathe",
