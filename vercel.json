@@ -1,12 +1,20 @@
 {
   "rewrites": [
     {
-      "source": "/shortener",
+      "source": "/pss-website",
       "destination": "https://url-shortner-backend-rose.vercel.app/"
     },
     {
-      "source": "/shortener/:match*",
+      "source": "/pss-website/:match*",
       "destination": "https://url-shortner-backend-rose.vercel.app/:match*"
+    },
+    {
+      "source": "/breathe",
+      "destination": "https://breathe-app.vercel.app/breathe"
+    },
+    {
+      "source": "/breathe/:path*",
+      "destination": "https://breathe-app.vercel.app/breathe/:path*"
     }
   ]
 }
